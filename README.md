@@ -6,5 +6,5 @@ This portfolio was created using ReactJS.
 I had used typewriter, Fontawesome(Contains many icons for common websites).
 
 # Website Link
-(portfolio) [https://mirsportfolio.netlify.app/]
+Click (portfolio) [https://mirsportfolio.netlify.app/] to go to my personal website.
 
