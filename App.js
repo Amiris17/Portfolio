@@ -72,8 +72,7 @@ function App() {
 
         <h2 id="About"> About Me</h2>
         <div class="paragraph_2">
-          I am a computer science graduate from Hunter College with nothing but
-          love and passion for this. I have enjoyed computers from a very young age and hope to improve my understanding with all knowledge I accumulate along the way. I enjoy working in a team environment and will always cater to those in need. I strive to be the best version of myself and hope to impact others in a positive way!
+        I’m a computer science graduate from Hunter College with a deep passion for technology. Since a young age, I’ve been driven to expand my knowledge and skills in this field. I thrive in collaborative environments, always aiming to support my team and make a positive impact. My goal is to continuously grow and become the best version of myself, both professionally and personally.
         </div>
 
         <h3 id="Project"> Projects</h3>
