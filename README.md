@@ -1,7 +1,7 @@
 # Portfolio
 This is my personal portfolio website, built using ReactJS. The site showcases my projects, skills, and background in a clean, interactive layout.
 
-#📦 Tech Stack/Imports Used
+# 📦 Tech Stack/Imports Used
 
 I had used typewriter, Fontawesome(Contains many icons for common websites).
 
