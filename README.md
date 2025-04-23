@@ -3,7 +3,11 @@ This is my personal portfolio website, built using ReactJS. The site showcases m
 
 # 📦 Tech Stack/Imports Used
 
-I had used typewriter, Fontawesome(Contains many icons for common websites).
+ReactJS for building a responsive, component-based UI
+
+TypewriterJS for animated typing effects
+
+Font Awesome for a rich set of web and social media icons
 
 # Live Site
 Click [portfolio](https://mirsportfolio.netlify.app/) to visit my personal website!
