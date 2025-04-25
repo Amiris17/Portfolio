@@ -12,6 +12,8 @@ Font Awesome for a rich set of web and social media icons
 # Live Site
 Click [portfolio](https://mirsportfolio.netlify.app/) to visit my personal website!
 
-#Project Purpose
+# Project Purpose
 This portfolio serves as a focal point to showcase my front-end projects, highlight my technical skills, and offer a bit of insight into who I am as a developer.
 
+#  Future Changes
+Make a Doom or Other Old classic game playable in a small portion of the screen.
