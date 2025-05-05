@@ -41,30 +41,51 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-h2, h3, h6 {
+h2, h3{
+  font-size: 48px;
+  padding-top: 100px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  text-align:right;
+  
+}
+/*programming skillset*/
+h6 {
   font-size: 48px;
   padding-top: 100px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-/* Typography */
 .paragraph, .paragraph_2, .Project1_Text, .Skillset ul {
   color: white;
   font-size: 24px;
   font-family: 'Playfair Display', serif;
-  margin-left: auto;
-  margin-right: auto;
+  font-style: italic;
+  
+  
+  
 }
 
 .paragraph {
-  text-align: center;
+  width: 50rem;
+  margin-left:auto;
+  text-align:center;
+  margin-right:auto;
+  font-size:30px;
+  text-decoration:underline;
 }
+
+
 
 .paragraph_2, .Project1_Text {
-  width: 50rem;
+  width: 30rem;
+  margin-left: auto;
+  margin-right: 0rem; 
+  
+ 
+
 }
 
-/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -111,7 +132,9 @@ h2, h3, h6 {
 
 /* Projects Section */
 .Project1_Text {
-  text-align: center;
+  width: 50rem;
+  margin-left:auto;
+  margin-right:2rem;
 }
 
 .project-card {
@@ -133,25 +156,29 @@ h2, h3, h6 {
 .a:link {
   color: green;
 }
-
-/* Skillset Section */
-.Skillset {
-  text-align: center;
-  font-size: 24px;
+.paragraph_3{
+  width: 50rem;
+  margin-left:auto;
+  margin-right: 5rem;
 }
+/* Skillset Section */
 
-.Skillset ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 20px;
+.Skillset {
+  max-width: 1000px;
+  margin: 100px auto 50px auto; /* center it & give spacing */
+  text-align: right;
+}
+.Skillset h6 {
+  font-size: 48px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 .Skillset li {
   font-size: 36px;
   margin: 10px;
-  transition: transform 0.3s ease;
+  display:right;
+  transition: transform 0.3s ease-in-out;;
 }
 
 .Skillset li:hover {
@@ -159,7 +186,7 @@ h2, h3, h6 {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Footer */
+
 footer {
   background-color: rgba(0, 0, 0, 0.9);
   color: white;
@@ -198,4 +225,43 @@ footer a:hover {
 }
 html {
   scroll-behavior: smooth;
+}
+
+/*creating new full text-block to enforce alignment*/
+.centered-text-block {
+  width:40rem;
+  margin-left: auto;
+  margin-right: 0;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: white;
+  padding: 30px;
+}
+.icon-container{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* nice spacing between icons */
+  list-style: none; /* removes bullets if you’re using <li> */
+  padding: 0;
+  margin: 0;
+ 
+}
+.icon-container ul{
+  font-size: 36px;
+  margin: 10px;
+  display:flex;
+  
+}
+.icon-container li{
+  font-size: 36px;
+  margin: 10px;
+  display:flex;
+  
+}
+.icon-container li :hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
 }
